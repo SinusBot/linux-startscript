@@ -10,7 +10,7 @@
 
 ##################################################################################
 # #
-# Usage: ./launch.sh {start|stop|status|restart|console|update|backup} #
+# Usage: {start|stop|status|restart|console|update|backup} #
 # - start: start the bot #
 # - stop: stop the bot #
 # - status: display the status of the bot (down or up) #
