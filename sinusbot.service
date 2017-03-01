@@ -1,10 +1,11 @@
 [Unit]
-Description = Sinusbot the Teamspeak 3 and Discord MusicBot.
-After = syslog.target network.target
+Description=Sinusbot the Teamspeak 3 and Discord MusicBot.
+After=syslog.target network.target
 
 [Service]
 User=YOURUSER
 ExecStart=YOURPATH_TO_THE_BOT_BINARY
+WorkingDirectory=YOURPATH_TO_THE_BOT_DIRECTORY
 Type=simple
 KillSignal=2
 SendSIGKILL=yes
