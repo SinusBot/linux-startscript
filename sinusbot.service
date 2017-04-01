@@ -4,8 +4,8 @@ After=syslog.target network.target
 
 [Service]
 User=YOURUSER
-ExecStartPre=rm /tmp/.sinusbot.lock
-ExecStopPost=rm /tmp/.sinusbot.lock
+ExecStartPre=rm -f /tmp/.sinusbot.lock
+ExecStopPost=rm -f /tmp/.sinusbot.lock
 ExecStart=YOURPATH_TO_THE_BOT_BINARY
 WorkingDirectory=YOURPATH_TO_THE_BOT_DIRECTORY
 Type=simple
