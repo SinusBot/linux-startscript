@@ -1,9 +1,9 @@
 [Unit]
-Description=Sinusbot the Teamspeak 3 and Discord MusicBot.
+Description=Sinusbot, the Teamspeak 3 and Discord music bot.
 After=syslog.target network.target
 
 [Service]
-User=YOURUSER
+User=YOUR_USER
 ExecStartPre=/bin/rm -f /tmp/.sinusbot.lock
 ExecStopPost=/bin/rm -f /tmp/.sinusbot.lock
 ExecStart=YOURPATH_TO_THE_BOT_BINARY
