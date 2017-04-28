@@ -1,6 +1,6 @@
 # Sinusbot startscript
 ## installation
-1. copy the file `sinusbot.service` to `/etc/systemd/system/sinusbot.service`
+1. copy the file `sinusbot.service` to `/lib/systemd/system/sinusbot.service`
 
 2. Adjust the following placeholders to your installation:
   
