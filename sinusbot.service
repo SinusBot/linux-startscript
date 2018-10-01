@@ -13,6 +13,8 @@ Type=simple
 KillSignal=2
 SendSIGKILL=yes
 Environment=QT_XCB_GL_INTEGRATION=none
+LimitNOFILE=512000
+LimitNPROC=512000
 
 [Install]
 WantedBy=multi-user.target
