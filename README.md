@@ -13,4 +13,4 @@
   
 3. Reload systemd: `systemctl daemon-reload`
 4. Enable autostart (optional) `systemctl enable sinusbot`
-4. Start the sinusbot: `service sinusbot start`
+4. Start the sinusbot: `systemctl start sinusbot`
