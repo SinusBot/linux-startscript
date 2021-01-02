@@ -1,5 +1,6 @@
 [Unit]
 Description=Sinusbot, the Teamspeak 3 and Discord music bot.
+Requires=ts3server.service
 Wants=network-online.target
 After=syslog.target network.target network-online.target
 
