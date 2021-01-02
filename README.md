@@ -11,6 +11,7 @@
    YOURPATH_TO_THE_BOT\_BINARY   | Your path to the SinusBot binary            | /opt/sinusbot/sinusbot 
    YOURPATH_TO_THE_BOT_DIRECTORY | Your path to the SinusBot install directory | /opt/sinusbot          
   
-3. Reload systemd: `systemctl daemon-reload`
-4. Enable autostart (optional) `systemctl enable sinusbot`
-4. Start the sinusbot: `systemctl start sinusbot`
+3. Load SinusBot only if ts3server.service is loaded (optional): Uncomment `#Requires=ts3server.service`
+4. Reload systemd: `systemctl daemon-reload`
+5. Enable autostart (optional) `systemctl enable sinusbot`
+6. Start the sinusbot: `systemctl start sinusbot`
